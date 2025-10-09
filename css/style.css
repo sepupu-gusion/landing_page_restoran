@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: #fff;
+	color: #555;
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility;
+	font-size: 20px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+.uf-clearfix {
+	zoom: 1;
+}
+
+.uf-clearfix::after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: 0;
+}
+
+.uf-row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(0, 0, 0, 0.7)),
+			to(rgba(0, 0, 0, 0.7))
+		),
+		url(../Omnifood-Contents/hero.jpg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../Omnifood-Contents/hero.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../Omnifood-Contents/hero.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.uf-hero-text-box {
+	position: absolute;
+	width: 1140px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+.uf-btn,
+input[type='submit'] {
+	display: inline-block;
+	margin-top: 30px;
+	border: 1px solid #e67e22;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-weight: 300;
+	-webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
+	-o-transition: background-color 0.2s, color 0.2s, border 0.2s;
+	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.uf-btn:hover,
+.uf-btn-active,
+input[type='submit']:hover {
+	color: #fff;
+	background-color: #cf6d17;
+}
+
+.uf-btn-full:hover,
+.uf-btn-full:active {
+	border: 1px solid #cf6d17;
+}
+
+.uf-btn-full,
+input[type='submit'] {
+	background-color: #e67e22;
+	color: #fff;
+	margin-right: 4%;
+}
+
+.uf-btn-ghost {
+	color: #e67e22;
+}
+
+/* NAV */
+
+.uf-logo {
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+.uf-logo-black {
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 10px 0;
+}
+
+.uf-main-nav {
+	float: right;
+	margin-top: 60px;
+	font-size: 110%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.uf-main-nav li {
+	display: inline-block;
+}
+
+.uf-main-nav li a {
+	list-style: none;
+	margin-right: 25px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid transparent;
+	text-decoration: none;
+	color: #fff;
+}
+
+.uf-main-nav li a:hover,
+.uf-main-nav li a:active {
+	border-bottom: 2px solid #e67e22;
+	-webkit-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
+
+nav ion-icon {
+	color: white;
+	font-size: 200%;
+}
+
+.uf-mobile-nav-icon {
+	display: none;
+	float: right;
+	margin-top: 30px;
+}
+
+/* Penutup Nav */
