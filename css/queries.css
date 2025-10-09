@@ -1,0 +1,201 @@
+/* Big tablet to 1200px (widths smaller that the 1140px row */
+@media only screen and (max-width: 1200px) {
+	.uf-hero-text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+	.uf-row {
+		padding: 0 2%;
+	}
+	h1 {
+		margin-top: 0;
+	}
+}
+
+/* Media query ini berfungsi untuk Ipad dengan mode lanscape */
+/* small tablet to big tablet: from 678 to 1023 */
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 18px;
+	}
+	section {
+		padding: 60px 0;
+	}
+	section.uf-section-meals {
+		padding: 0;
+	}
+	.long-copy {
+		width: 90%;
+		margin-left: 10%;
+	}
+	.uf-steps-box:last-child {
+		margin-top: 1px !important;
+	}
+	.uf-section-steps .uf-works-step {
+		margin: 8% 0;
+	}
+	.uf-section-steps .uf-works-step {
+		margin-bottom: 40px;
+	}
+	.uf-works-step:last-of-type {
+		margin-bottom: 80px;
+	}
+	/* DIV */
+	.uf-section-steps .uf-works-step div {
+		font-size: 120%;
+		width: 40px;
+		height: 40px;
+		padding: 9px;
+	}
+	.uf-app-screen {
+		width: 50%;
+	}
+	.uf-section-cities .uf-cities-feature ion-icon {
+		font-size: 90%;
+	}
+	.uf-section-cities .uf-cities-feature {
+		font-size: 90%;
+	}
+	.uf-plan-box {
+		width: 100%;
+		margin-left: 0;
+	}
+	.uf-plan-price {
+		font-size: 250%;
+	}
+	.uf-plan-box div {
+		font-size: 91%;
+	}
+}
+
+/* Media query ini biasa digunakan untuk media Ipad */
+/* small only phones to small tablets: from 481 to 767 */
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 16px;
+	}
+	section {
+		padding: 30px 0;
+	}
+	.uf-row,
+	.uf-hero-text-box {
+		padding: 0 4%;
+	}
+	.uf-col {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+	h1 {
+		font-size: 150%;
+	}
+	h2 {
+		font-size: 150%;
+	}
+	.uf-section-steps .uf-works-step {
+		margin-bottom: 20px;
+	}
+	.uf-mobile-nav-icon {
+		display: inline-block;
+	}
+	nav .uf-logo {
+		width: 20%;
+		height: 20%;
+	}
+
+	.uf-main-nav {
+		display: none;
+		float: left;
+		margin-top: 35px;
+		margin-left: 25px;
+	}
+	.uf-main-nav li {
+		display: block;
+	}
+
+	.uf-main-nav li a:link,
+	.uf-main-nav li a:visited {
+		display: block;
+		border: 0;
+		font-size: 80%;
+	}
+	.stincky .uf-main-nav li a:link,
+	.stincky .uf-main-nav li a:visited {
+		padding: 10px 0;
+	}
+	.stincky .uf-main-nav {
+		margin-top: 10px;
+	}
+	.stincky ion-icon {
+		color: #555;
+	}
+	.stincky .uf-mobile-nav-icon {
+		margin: 10px;
+	}
+	.uf-section-features .uf-row .long-copy {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.uf-section-features .uf-row .uf-col {
+		width: 100%;
+	}
+	.uf-app-screen {
+		display: block;
+		margin: 0 auto;
+	}
+	.uf-section-cities .uf-cities-feature ion-icon {
+		font-size: 100%;
+	}
+	.uf-section-cities .uf-cities-feature {
+		font-size: 100%;
+	}
+	cite {
+		margin: 3% 0 15% 0;
+	}
+
+	cite img {
+		width: 10%;
+	}
+
+	.uf-section-plans .uf-col {
+		margin: 0;
+	}
+
+	.uf-section-plans h3 {
+		font-size: 150%;
+	}
+	.uf-plan-box ion-icon {
+		font-size: 100%;
+	}
+	/* footer */
+	.uf-link-home li a {
+		font-size: 50% !important;
+		margin: 0;
+	}
+	.uf-link-home ul {
+		width: 50%;
+	}
+	.uf-love p {
+		position: relative;
+		top: -5.5px;
+		float: right;
+		font-size: 30%;
+		width: 50%;
+		margin: 0 !important;
+	}
+	footer .uf-social {
+		margin: 10% 0;
+	}
+	/* Penutup Footer */
+}
+/*
+Media Kueri ini biasanya di gunakan untuk handpone lama seperti iphone  4 dan iphone 5
+*/
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+	.section {
+		padding: 25px 0;
+	}
+	.uf-contact-form {
+		width: 100%;
+	}
+}

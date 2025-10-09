@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,37 +15,584 @@
 		<link rel="stylesheet" href="css/queries.css" />
 		<title>Omnifood</title>
 	</head>
-    <body>
-        <header>
+
+	<body>
+		<header>
 			<nav>
-				<div class="row">
-					<img    
+				<div class="uf-row">
+					<img
 						src="Omnifood-Contents/logo-white.png"
 						alt="logo"
-						class="logo"
+						class="uf-logo"
 					/>
 					<img
 						src="Omnifood-Contents/logo.png"
 						alt="logo"
-						class="logo-black"
+						class="uf-logo-black"
 					/>
-					<ul class="main-nav js--main-nav">
+					<ul class="uf-main-nav js--uf-main-nav">
 						<li><a href="#get-food-fast">Food Delivery</a></li>
 						<li><a href="#how-it-works">How It Works</a></li>
 						<li><a href="#our-cities">our Cities</a></li>
 						<li><a href="#sign-up">sign up</a></li>
 					</ul>
-					<a class="mobile-nav-icon js--nav-icon">
+					<a class="uf-mobile-nav-icon js--uf-nav-icon">
 						<ion-icon name="menu-outline" id="menu-outline"></ion-icon>
 						<ion-icon name="close-outline" id="close-outline" hidden></ion-icon>
 					</a>
 				</div>
 			</nav>
-			<div class="hero-text-box">
+			<div class="uf-hero-text-box">
 				<h1>Goodbye junk food. <br />Hello super healty meals</h1>
-				<a class="btn btn-full" href="#start-eating-today">I'm Hungry</a>
-				<a class="btn btn-ghost" href="#get-food-fast">Show me more</a>
+				<a class="uf-btn uf-btn-full" href="#start-eating-today">I'm Hungry</a>
+				<a class="uf-btn uf-btn-ghost" href="#get-food-fast">Show me more</a>
 			</div>
 		</header>
-    </body>
+
+		<section id="get-food-fast" class="uf-section-features js--uf-section-features">
+			<div class="uf-row">
+				<h2>Get food fast &mdash; not fast food.</h2>
+				<p class="long-copy uf-opening-post-instagram">
+					Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+				</p>
+			</div>
+			<div class="uf-row uf-animate-opacity uf-animate-food-delivery animate__animated animate__fadeIn ">
+				<div class="uf-col uf-span-1-of-4">
+					<ion-icon name="infinite-outline" role="img" class="md hydrated" aria-label="infinite outline"></ion-icon>
+					<h3>Up to 365 days/year</h3>
+					<p>
+						Never cook again! We really mean that. Our subscription plans include up to 365
+						days/year coverage. You can also choose to order more flexibly if that's your
+						style.
+					</p>
+				</div>
+				<div class="uf-col uf-span-1-of-4">
+					<ion-icon name="stopwatch-outline"></ion-icon>
+					<h3>Ready in 20 minutes</h3>
+					<p>
+						You're only twenty minutes away from your delicious and super healthy meals
+						delivered right to your home. We work with the best chefs in each town to ensure
+						that you're 100% happy.
+					</p>
+				</div>
+				<div class="uf-col uf-span-1-of-4">
+					<ion-icon name="nutrition-outline"></ion-icon>
+					<h3>100% organic</h3>
+					<p>
+						All our vegetables are fresh, organic and local. Animals are raised without
+						added hormones or antibiotics. Good for your health, the environment, and it
+						also tastes better!
+					</p>
+				</div>
+				<div class="uf-col uf-span-1-of-4">
+					<ion-icon name="cart-outline"></ion-icon>
+					<h3>Order anything</h3>
+					<p>
+						We don't limit your creativity, which means you can order whatever you feel
+						like. You can also choose from our menu containing over 100 delicious meals.
+						It's up to you!
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="uf-section-meals">
+			<ul class="uf-meals-showcase uf-clearfix">
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/1.jpg"
+							alt="Korean bibimbapÂ with egg and vegetables"
+						/>
+					</figure>
+				</li>
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/2.jpg"
+							alt="Simple italian pizza with cherry tomatoes"
+						/>
+					</figure>
+				</li>
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/3.jpg"
+							alt="Chicken breast steak with vegetables"
+						/>
+					</figure>
+				</li>
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/4.jpg"
+							alt="Autumn pumpkin soup"
+						/>
+					</figure>
+				</li>
+			</ul>
+			<ul class="uf-meals-showcase uf-clearfix">
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/5.jpg"
+							alt="Paleo beef steak with vegetables"
+						/>
+					</figure>
+				</li>
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/6.jpg"
+							alt="Healthy baguette with egg and vegetables"
+						/>
+					</figure>
+				</li>
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/7.jpg"
+							alt="Burger with cheddar and bacon"
+						/>
+					</figure>
+				</li>
+				<li>
+					<figure class="uf-meal-photo">
+						<img
+							class="uf-gambar"
+							src="Omnifood-Contents/8.jpg"
+							alt="Granola with cherries and strawberries"
+						/>
+					</figure>
+				</li>
+			</ul>
+		</section>
+		<section id="how-it-works" class="uf-section-steps">
+			<h2>How It Works &mdash; Simple as 1, 2, 3</h2>
+			<div class="uf-row">
+				<div class="uf-col uf-span-1-of-2 uf-steps-box">
+					<img
+						src="/landing_page_restoran/Omnifood-Contents/app-iPhone.jpg"
+						alt="Device Phone Apple"
+						class="uf-app-screen"
+					/>
+				</div>
+				<div class="uf-col uf-span-1-of-2 uf-steps-box">
+					<div class="uf-works-step">
+						<div>1</div>
+						<p>Choose the subscription plan that best fits your needs and sign up today.</p>
+					</div>
+					<div class="uf-works-step">
+						<div>2</div>
+						<p>
+							Order your delicious meal using our mobile app or website. Or you can even call
+							us!
+						</p>
+					</div>
+					<div class="uf-works-step">
+						<div>3</div>
+						<p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+					</div>
+					<a href="#" class="uf-btn-app"
+						><img
+							src="Omnifood-Contents/download-app.svg"
+							alt="App Store Button"
+					/></a>
+					<a href="#" class="uf-btn-app"
+						><img
+							src="Omnifood-Contents/download-app-android.png"
+							alt="App Store Button"
+					/></a>
+				</div>
+			</div>
+		</section>
+
+		<section id="our-cities" class="uf-section-cities">
+			<div class="uf-row">
+				<h2>We're currently in these cities</h2>
+			</div>
+			<div class="uf-row">
+				<div class="uf-col uf-span-1-of-4">
+					<figure class="uf-list-cities">
+						<img src="Omnifood-Contents/lisbon-3.jpg" alt="lisbon" />
+						<h3>lisbon</h3>
+						<div class="uf-cities-feature">
+							<ion-icon name="person"></ion-icon>
+							1600+ happy eaters
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="star"></ion-icon>
+							60+ top chefs
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="logo-twitter"></ion-icon>
+							<a href="#" class="uf-link-twitter">@omnifood_lx </a>
+						</div>
+					</figure>
+				</div>
+				<div class="uf-col uf-span-1-of-4">
+					<figure class="uf-list-cities">
+						<img
+							src="Omnifood-Contents/san-francisco.jpg"
+							alt="San Francisco"
+						/>
+						<h3>San Francisco</h3>
+						<div class="uf-cities-feature">
+							<ion-icon name="person"></ion-icon>
+							3700+ happy eaters
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="star"></ion-icon>
+							160+ top chefs
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="logo-twitter"></ion-icon>
+							<a href="#" class="uf-link-twitter">@omnifood_sf</a>
+						</div>
+					</figure>
+				</div>
+				<div class="uf-col uf-span-1-of-4">
+					<figure class="uf-list-cities">
+						<img src="Omnifood-Contents/berlin.jpg" alt="berlin" />
+						<h3>berlin</h3>
+						<div class="uf-cities-feature">
+							<ion-icon name="person"></ion-icon>
+							2300+ happy eaters
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="star"></ion-icon>
+							110+ top chefs
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="logo-twitter"></ion-icon>
+							<a href="#" class="uf-link-twitter">@omnifood_berlin</a>
+						</div>
+					</figure>
+				</div>
+				<div class="uf-col uf-span-1-of-4">
+					<figure class="uf-list-cities">
+						<img src="Omnifood-Contents/london.jpg" alt="London" />
+						<h3>London</h3>
+						<div class="uf-cities-feature">
+							<ion-icon name="person"></ion-icon>
+							1200+ happy eaters
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="star"></ion-icon>
+							50+ top chefs
+						</div>
+						<div class="uf-cities-feature">
+							<ion-icon name="logo-twitter"></ion-icon>
+							<a href="#" class="uf-link-twitter">@omnifood_london</a>
+						</div>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<section class="uf-section-testimonial">
+			<div class="uf-row">
+				<h2>Our customers can't live without us</h2>
+			</div>
+			<div class="uf-row">
+				<div class="uf-col uf-span-1-of-3">
+					<blockquote>
+						Omnifood is just awesome! I just launched a startup which leaves me with no time
+						for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't
+						live without my daily meals!
+						<cite
+							><img
+								src="/landing_page_restoran/Omnifood-Contents/customer-1.jpg"
+								alt="Alberto Ducan"
+							/>Alberto Duncan</cite
+						>
+					</blockquote>
+				</div>
+				<div class="uf-col uf-span-1-of-3">
+					<blockquote>
+						Inexpensive, healthy and great-tasting meals, delivered right to my home. We
+						have lots of food delivery here in Lisbon, but no one comes even close to
+						Omifood. Me and my family are so in love!
+						<cite
+							><img
+								src="/landing_page_restoran/Omnifood-Contents/customer-2.jpg"
+								alt="Joana Silva"
+							/>Joana Silva</cite
+						>
+					</blockquote>
+				</div>
+				<div class="uf-col uf-span-1-of-3">
+					<blockquote>
+						I was looking for a quick and easy food delivery service in San Franciso. I
+						tried a lot of them and ended up with Omnifood. Best food delivery service in
+						the Bay Area. Keep up the great work!
+						<cite
+							><img
+								src="/landing_page_restoran/Omnifood-Contents/customer-3.jpg"
+								alt="Milton Chapman"
+							/>Milton Chapman</cite
+						>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<section class="uf-section-plans" id="start-eating-today">
+			<div class="uf-row">
+				<h2>Start Eating Healty today</h2>
+			</div>
+			<div class="uf-row">
+				<div class="uf-col uf-span-1-of-3">
+					<div id="premium-plan" class="uf-plan-box">
+						<div>
+							<h3>Premium</h3>
+							<p class="uf-plan-price">$399 <span>/ month</span></p>
+							<p class="uf-plan-price-month">That’s only 13.30$ per meal</p>
+						</div>
+						<div>
+							<ul>
+								<li><ion-icon name="checkmark-outline"></ion-icon>1 meal every day</li>
+								<li><ion-icon name="checkmark-outline"></ion-icon>Order 24/7</li>
+								<li>
+									<ion-icon name="checkmark-outline"></ion-icon>Access to newest creations
+								</li>
+								<li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li>
+							</ul>
+						</div>
+						<div>
+							<a href="#" class="uf-btn uf-btn-full">Sing Up Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="uf-col uf-span-1-of-3">
+					<div class="uf-plan-box">
+						<div>
+							<h3>Pro</h3>
+							<p class="uf-plan-price">$149 <span>/ month</span></p>
+							<p class="uf-plan-price-month">That’s only 14.90$ per meal</p>
+						</div>
+						<div>
+							<ul>
+								<li>
+									<ion-icon name="checkmark-outline"></ion-icon>1 meal 10 days<span>/ month</span>
+								</li>
+								<li><ion-icon name="checkmark-outline"></ion-icon>Order 24/7</li>
+								<li>
+									<ion-icon name="checkmark-outline"></ion-icon>Access to newest creations
+								</li>
+								<li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li>
+							</ul>
+						</div>
+						<div>
+							<a href="#" class="uf-btn uf-btn-ghost">Sing Up Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="uf-col uf-span-1-of-3">
+					<div class="uf-plan-box">
+						<div>
+							<h3>Starter</h3>
+							<p class="uf-plan-price">$19 <span>/meal</span></p>
+							<br class="uf-plan-price-month" />
+							<p></p>
+						</div>
+						<div>
+							<ul>
+								<li><ion-icon name="checkmark-outline"></ion-icon>1 meal</li>
+								<li><ion-icon name="checkmark-outline"></ion-icon>Order from 8 am to 12 pm</li>
+								<li><ion-icon name="checkmark-outline"></ion-icon>Free delivery</li>
+								<li><ion-icon name="close-outline"></ion-icon></li>
+							</ul>
+						</div>
+						<div>
+							<a href="#" class="uf-btn uf-btn-ghost">Sing Up Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sign-up" class="uf-section-form">
+			<div class="uf-row">
+				<h2>We're happy to hear from you</h2>
+			</div>
+			<div class="uf-row">
+				<form method="POST" action="#" class="uf-contact-form">
+					<div class="uf-row">
+						<div class="uf-col uf-span-1-of-3">
+							<label for="name">Name</label>
+						</div>
+						<div class="uf-col uf-span-2-of-3">
+							<input
+								type="text"
+								name="name"
+								class="uf-input"
+								id="name"
+								placeholder="Your Name"
+								required
+							/>
+						</div>
+					</div>
+					<div class="uf-row">
+						<div class="uf-col uf-span-1-of-3">
+							<label for="email">Email</label>
+						</div>
+						<div class="uf-col uf-span-2-of-3">
+							<input
+								type="email"
+								name="email"
+								id="name"
+								class="uf-input"
+								placeholder="Your Email"
+								required
+							/>
+						</div>
+					</div>
+					<div class="uf-row">
+						<div class="uf-col uf-span-1-of-3">
+							<label for="find-us">How did you find us?</label>
+						</div>
+						<div class="uf-col uf-span-2-of-3">
+							<select name="find-us" id="find-us">
+								<option value="friends" selected>Friends</option>
+								<option value="search">Search Engine</option>
+								<option value="ad">Advertisement</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+					</div>
+					<div class="uf-row">
+						<div class="uf-col uf-span-1-of-3">
+							<label for="news">Newsletter?</label>
+						</div>
+						<div class="uf-col uf-span-2-of-3">
+							<input type="checkbox" name="news" id="news" checked /> Yes, please
+						</div>
+					</div>
+					<div class="uf-row">
+						<div class="uf-col uf-span-1-of-3">
+							<label for="message">Drop us a line</label>
+						</div>
+						<div class="uf-col uf-span-2-of-3">
+							<textarea name="message" placeholder="Your Message"></textarea>
+						</div>
+					</div>
+					<div class="uf-row">
+						<div class="uf-col uf-span-1-of-3">
+							<label>&nbsp;</label>
+						</div>
+						<div class="uf-col uf-span-2-of-3">
+							<input type="submit" value="Send it!" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<footer>
+			<div class="uf-row">
+				<div class="uf-col uf-span-1-of-2">
+					<h5>Join Us Every Day</h5>
+					<p class="uf-opening-post-instagram">
+						Every week we share post on instagram. Follow us to join us in the Omnifood and
+						give your opinion on our work
+					</p>
+
+					<div class="uf-images">
+						<img src="Omnifood-Contents/header.png" alt="header" />
+						<img
+							src="Omnifood-Contents/app-iPhone.jpg"
+							alt="header"
+							mobile
+						/>
+						<img src="Omnifood-Contents/london.jpg" alt="london" />
+						<img
+							src="Omnifood-Contents/san-francisco.jpg"
+							alt="san-francisco"
+						/>
+
+						<div class="uf-social">
+							<p>Keep In Touch</p>
+							<ul class="uf-social-links">
+								<li>
+									<a href="#">
+										<ion-icon class="facebook" name="logo-facebook"></ion-icon>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<ion-icon class="twitter" name="logo-twitter"></ion-icon>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<ion-icon class="google" name="logo-google"></ion-icon>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<ion-icon class="ig" name="logo-instagram"></ion-icon>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="uf-col uf-span-1-of-2">
+					<h5>Contributor Development Website</h5>
+					<p class="uf-first-line">
+						Join us in website development. Get the latest <br />
+						news about the food we develop
+					</p>
+
+					<div class="uf-row">
+						<div class="uf-image-contrib">
+							<img src="/landing_page_restoran/Omnifood-Contents/irgi.jpg" alt="Niki" />
+							<img src="/landing_page_restoran/Omnifood-Contents/kevinda.jpg" alt="" />
+							<img src="/landing_page_restoran/Omnifood-Contents/rafik.jpg" alt="effenril" />
+						</div>
+						<div class="uf-email">
+							<input type="email" placeholder="Email..." />
+							<input type="button" value="Subcribe" />
+						</div>
+					</div>
+				</div>
+				<div class="uf-col uf-span-1-of-1">
+					<div class="uf-row">
+						<hr style="width: 78vw" />
+					</div>
+				</div>
+				<div class="uf-row">
+					<div class="uf-col uf-span-1-of-2">
+						<div class="uf-row" style="padding: 0 !important">
+							<div class="uf-link-home">
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#get-food-fast">Food Delivery</a></li>
+									<li><a href="#how-it-works">How It Works</a></li>
+									<li><a href="#our-cities">Our Cities</a></li>
+									<li><a href="#sign-up">Sign Up</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="uf-col uf-span-1-of-2">
+						<div class="uf-row">
+							<div class="uf-love">
+								<p>
+									Made With <ion-icon class="ig" name="heart"></ion-icon> in Medan, the Sumatera
+									Utara
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
